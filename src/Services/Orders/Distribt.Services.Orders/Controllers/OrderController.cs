@@ -2,9 +2,9 @@
 
 namespace Distribt.Services.Orders.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
-    public class OrderController : ControllerBase
+    public class OrderController
     {
         [HttpGet("{orderId}")]
         public Task<OrderDto> GetOrder(Guid orderId)
