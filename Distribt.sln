@@ -29,27 +29,44 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{E7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Subscriptions", "Subscriptions", "{F1A9C2B0-A74D-4ECB-BCEA-68A63D1FB748}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distribt.API.Private", "src\Api\Private\Distribt.API.Private\Distribt.API.Private.csproj", "{355D8F05-B917-4463-8BCA-62B906A5933D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distribt.API.Private", "src\Api\Private\Distribt.API.Private\Distribt.API.Private.csproj", "{355D8F05-B917-4463-8BCA-62B906A5933D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distribt.API.Public", "src\Api\Public\Distribt.API.Public\Distribt.API.Public.csproj", "{578C235F-7807-42CE-A23D-97FA6B67DE46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distribt.API.Public", "src\Api\Public\Distribt.API.Public\Distribt.API.Public.csproj", "{578C235F-7807-42CE-A23D-97FA6B67DE46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distribt.Services.Emails", "src\Services\Emails\Distribt.Services.Emails\Distribt.Services.Emails.csproj", "{A0A7E1A0-86CC-418E-84FD-E4F6314148AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distribt.Services.Emails", "src\Services\Emails\Distribt.Services.Emails\Distribt.Services.Emails.csproj", "{A0A7E1A0-86CC-418E-84FD-E4F6314148AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distribt.Services.Orders", "src\Services\Orders\Distribt.Services.Orders\Distribt.Services.Orders.csproj", "{B51042EE-8B3D-4C9A-B3EA-35C603886D4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distribt.Services.Orders", "src\Services\Orders\Distribt.Services.Orders\Distribt.Services.Orders.csproj", "{B51042EE-8B3D-4C9A-B3EA-35C603886D4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distribt.Services.Products", "src\Services\Products\Distribt.Services.Products\Distribt.Services.Products.csproj", "{A9832EBA-A5C7-4CEF-9D4A-A7C9D57E87FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distribt.Services.Products", "src\Services\Products\Distribt.Services.Products\Distribt.Services.Products.csproj", "{A9832EBA-A5C7-4CEF-9D4A-A7C9D57E87FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distribt.Services.Subscriptions", "src\Services\Subscriptions\Distribt.Services.Subscriptions\Distribt.Services.Subscriptions.csproj", "{5514ADC6-C310-487F-817B-0B3BF4D19351}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distribt.Services.Subscriptions", "src\Services\Subscriptions\Distribt.Services.Subscriptions\Distribt.Services.Subscriptions.csproj", "{5514ADC6-C310-487F-817B-0B3BF4D19351}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distribt.Shared.Api", "src\Shared\Distribt.Shared.Api\Distribt.Shared.Api.csproj", "{0108EB98-0DE9-47BB-8EE7-E9F1BE5FEF02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distribt.Shared.Api", "src\Shared\Distribt.Shared.Api\Distribt.Shared.Api.csproj", "{0108EB98-0DE9-47BB-8EE7-E9F1BE5FEF02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distribt.Shared.Setup", "src\Shared\Distribt.Shared.Setup\Distribt.Shared.Setup.csproj", "{F68D47A4-A11E-425B-977F-0DE7EF409994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distribt.Shared.Setup", "src\Shared\Distribt.Shared.Setup\Distribt.Shared.Setup.csproj", "{F68D47A4-A11E-425B-977F-0DE7EF409994}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{5069BBC9-E910-48E1-93E8-A2FF89B24D0F}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		docker-compose.yaml = docker-compose.yaml
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distribt.Shared.Communication", "src\Shared\Distribt.Shared.Communication\Distribt.Shared.Communication.csproj", "{5EB317DE-D868-4730-8B8C-74B63C1BAB85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distribt.Shared.Serialization", "src\Shared\Distribt.Shared.Serialization\Distribt.Shared.Serialization.csproj", "{1EDA0F2A-082E-4D7B-B894-8428E25AEA39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rabbitmq", "rabbitmq", "{1B73B0E7-351E-4B88-B792-5FA693D30D91}"
+	ProjectSection(SolutionItems) = preProject
+		tools\rabbitmq\definitions.json = tools\rabbitmq\definitions.json
+		tools\rabbitmq\rabbitmq.config = tools\rabbitmq\rabbitmq.config
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distribt.Shared.Communication.RabbitMQ", "src\Shared\Distribt.Shared.Communication.RabbitMQ\Distribt.Shared.Communication.RabbitMQ.csproj", "{76A38B67-896A-4D9C-9A15-1B3F0D933007}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distribt.Services.Subscriptions.Dtos", "src\Services\Subscriptions\Distribt.Services.Subscriptions.Dtos\Distribt.Services.Subscriptions.Dtos.csproj", "{C6DCFCFD-7265-4D2B-92AD-2FC1E3F7BD98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distribt.Services.Subscriptions.Consumer", "src\Services\Subscriptions\Distribt.Services.Subscriptions.Consumer\Distribt.Services.Subscriptions.Consumer.csproj", "{BF06D86F-226C-47FC-9807-20A5D3CB82A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +106,26 @@ Global
 		{F68D47A4-A11E-425B-977F-0DE7EF409994}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F68D47A4-A11E-425B-977F-0DE7EF409994}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F68D47A4-A11E-425B-977F-0DE7EF409994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB317DE-D868-4730-8B8C-74B63C1BAB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB317DE-D868-4730-8B8C-74B63C1BAB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB317DE-D868-4730-8B8C-74B63C1BAB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB317DE-D868-4730-8B8C-74B63C1BAB85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EDA0F2A-082E-4D7B-B894-8428E25AEA39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EDA0F2A-082E-4D7B-B894-8428E25AEA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EDA0F2A-082E-4D7B-B894-8428E25AEA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EDA0F2A-082E-4D7B-B894-8428E25AEA39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76A38B67-896A-4D9C-9A15-1B3F0D933007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A38B67-896A-4D9C-9A15-1B3F0D933007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A38B67-896A-4D9C-9A15-1B3F0D933007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A38B67-896A-4D9C-9A15-1B3F0D933007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6DCFCFD-7265-4D2B-92AD-2FC1E3F7BD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6DCFCFD-7265-4D2B-92AD-2FC1E3F7BD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6DCFCFD-7265-4D2B-92AD-2FC1E3F7BD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6DCFCFD-7265-4D2B-92AD-2FC1E3F7BD98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF06D86F-226C-47FC-9807-20A5D3CB82A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF06D86F-226C-47FC-9807-20A5D3CB82A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF06D86F-226C-47FC-9807-20A5D3CB82A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF06D86F-226C-47FC-9807-20A5D3CB82A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,6 +149,12 @@ Global
 		{5514ADC6-C310-487F-817B-0B3BF4D19351} = {F1A9C2B0-A74D-4ECB-BCEA-68A63D1FB748}
 		{0108EB98-0DE9-47BB-8EE7-E9F1BE5FEF02} = {9F0117D2-ADCC-4848-8678-035E4B78EF3E}
 		{F68D47A4-A11E-425B-977F-0DE7EF409994} = {9F0117D2-ADCC-4848-8678-035E4B78EF3E}
+		{5EB317DE-D868-4730-8B8C-74B63C1BAB85} = {9F0117D2-ADCC-4848-8678-035E4B78EF3E}
+		{1EDA0F2A-082E-4D7B-B894-8428E25AEA39} = {9F0117D2-ADCC-4848-8678-035E4B78EF3E}
+		{1B73B0E7-351E-4B88-B792-5FA693D30D91} = {1F535B31-45AB-4BC6-B828-E62A11A8EC89}
+		{76A38B67-896A-4D9C-9A15-1B3F0D933007} = {9F0117D2-ADCC-4848-8678-035E4B78EF3E}
+		{C6DCFCFD-7265-4D2B-92AD-2FC1E3F7BD98} = {F1A9C2B0-A74D-4ECB-BCEA-68A63D1FB748}
+		{BF06D86F-226C-47FC-9807-20A5D3CB82A3} = {F1A9C2B0-A74D-4ECB-BCEA-68A63D1FB748}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {754EFBA8-BD26-4124-9645-45CE09AACBD6}

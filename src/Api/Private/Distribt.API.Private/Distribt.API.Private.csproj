@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	<RootNamespace>Distribt.API.Private</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,7 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Shared\Distribt.Shared.Api\Distribt.Shared.Api.csproj" />
+	  <ProjectReference Include="..\..\..\Shared\Distribt.Shared.Setup\Distribt.Shared.Setup.csproj" />
+	  <Compile Include="..\..\..\Shared\Distribt.Shared.Setup\GlobalUsings.cs" Link="GlobalUsings.cs" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Distribt.Services.Subscriptions.Dtos;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Distribt.Services.Subscriptions.Controllers
 {
@@ -19,7 +20,5 @@ namespace Distribt.Services.Subscriptions.Controllers
             //TODO: logic 
             return Task.FromResult(true);
         }
-
-        public record SubscriptionDto(string email);
     }
 }

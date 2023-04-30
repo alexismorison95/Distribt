@@ -1,4 +1,3 @@
-using Distribt.Shared.Api;
 
 var app = DefaultDistribtWebApplication.Create();
 

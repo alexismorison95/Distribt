@@ -1,13 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<RootNamespace>Distribt.Shared.Setup</RootNamespace>
   </PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Distribt.Shared.Api\Distribt.Shared.Api.csproj" />
+	  <ProjectReference Include="..\Distribt.Shared.Communication.RabbitMQ\Distribt.Shared.Communication.RabbitMQ.csproj" />
+	  <ProjectReference Include="..\Distribt.Shared.Serialization\Distribt.Shared.Serialization.csproj" />
 	</ItemGroup>
 	
 </Project>
