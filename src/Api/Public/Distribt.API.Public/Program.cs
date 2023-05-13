@@ -1,5 +1,5 @@
-using Distribt.Shared.Communication.Publishers.Integration;
 using Distribt.Services.Subscriptions.Dtos;
+using Distribt.Shared.Communication.Publishers.Integration;
 
 var app = DefaultDistribtWebApplication.Create(builder =>
 {
